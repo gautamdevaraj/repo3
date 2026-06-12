@@ -17,7 +17,7 @@ pipeline {
             steps {
 
                 git branch: 'main',
-                url: 'https://github.com/company/network-devops.git'
+                url: 'git@github.com:gautamdevaraj/repo3.git' , credentialId: 'gautam-github-cred'
             }
         }
 
